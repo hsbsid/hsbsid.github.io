@@ -3435,6 +3435,14 @@ input[type='button']:disabled,
   }
 }
 
+#one .container p {
+  font-size: 18px;
+}
+
+#one .container ul {
+  font-size: 18px;
+}
+
 #four {
   background: #ffc060;
 }
@@ -3443,10 +3451,18 @@ input[type='button']:disabled,
   color: white;
 }
 
-.experienceLocation {
-  text-transform: uppercase;
+.experienceTitle {
   display: block;
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #d6880f;
+}
+
+.experienceLocation {
+  display: block;
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 5px;
 }
 
 .experienceDate {
@@ -3460,8 +3476,88 @@ input[type='button']:disabled,
   font-size: 18px;
 }
 
+.experienceList li hr {
+  margin: 10px 0;
+  width: 125px;
+  height: 0px;
+  border: 1px solid #ffe5bc;
+}
+
 .experienceDescription * {
-  list-style: disc !important;
-  font-size: 14px !important;
-  margin: 0 !important;
+  font-size: 16px !important;
+}
+
+.experienceSkills {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #b4720f;
+  word-spacing: 2px;
+  display: block;
+}
+
+.experienceDescription ul {
+  display: list-item;
+  padding: 0;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.experienceDescription ul li {
+  display: list-item !important;
+  font-size: 17px !important;
+  padding: 0;
+  margin: 0;
+}
+
+.projects article div.inner p span {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #b4720f;
+  word-spacing: 2px;
+  display: block;
+  margin-top: 5px;
+}
+
+a.downloadLink {
+  text-decoration: none;
+  border: none;
+}
+
+.download {
+  width: 280px;
+  height: 70px;
+  background: none;
+  border: 3px solid #e99a24;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  color: #e99a24;
+  transition: all 200ms ease-in-out;
+}
+
+.download i {
+  margin-right: 5px;
+}
+
+.download:hover {
+  color: #ffc56d;
+  border-color: #ffc56d;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+footer .download {
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #895c17;
+  border-color: #895c17;
+}
+
+footer .download:hover {
+  font-size: 15px;
+  color: #fff;
+  border-color: #fff;
 }
